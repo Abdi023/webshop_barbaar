@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    overflow-x: hidden;
+}
+/* doelgroep-header parent */
+.doelgroep-header {
+    margin: 4rem 4rem;
+    
+}
+/* doelgroep-ul-sex  */
+.doelgroep-ul-geslacht {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+/*  */
+.doelgroep-li-geslacht {
+    display: flex;
+    margin-left: 30%;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/* logo */
+.logo {
+    grid-column: 6/9;
+    width: 100%;
+    height: auto;
+    margin-top: -2.5rem;
+}
+/*  */
+.img-logo {
+    width: 19rem;
+    background-size: cover;
+}
+/*  */
+.doelgroep-ul-geslacht-2 {
+    grid-column: 9;
+    display: flex;
+    gap: 3rem;
+    margin-left: 120%;
+    margin-top: -3rem;
+    width: 110%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/* doelgroep-ul-inlog-cart-favoriet */
+.doelgroep-ul-inlog-cart-favoriet {
+    list-style: none;
+    margin-left: 10%;
+    width: 15%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* doelgroep-ul first child */
+.doelgroep-ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+/* deolgroep-li list second child*/
+.doelgroep-li {
+    margin-top: 2rem;
+    margin-left: 70%;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.kleding-dropdown {    
+    list-style-type: none;
+    text-decoration: none;
+}
+/*  */
+
+/* search-bar the parent */
+.doelgroep-ul-searchbar {
+    grid-column: 8/12;
+    
+}
+/* search-bar + button */
+.doelgroep-ul-searchbar button {
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 0.2rem;
+    background: #ccc;
+    cursor: pointer;
+}
+/* search-bar button hover color */
+.doelgroep-ul-searchbar button:hover {
+    background-color: #cc9;
+}
+/* input search-bar */
+.input-doelgroep {
+    margin-top: 1.5rem;
+    width: 35rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1 solid black;
+}
+/*  */
+.het-main-website {
+    margin: 3%;
+}
+/*  */
+.section-advertentie {
+    display: flex;
+    margin: 0 15%;
+}
+/*  */
+.article-advertentie {
+    display: flex;
+    width: 35rem;
+    height: 40rem;
+}
+/*  */
+.section-advertentie .article-advertentie .h2-advertentie {
+    z-index: 2;
+    margin: 30% 0 0 -70%;
+    font-size: 350%;
+    font-family: uppercase;
+}
+.article-advertentie:hover {
+    transform: scale(1.01);
+}
+/*  */
+.article-advertentie {
+}
+/*  */
+.h3-random-kleding {
+    margin-top: 5.5%;
+    margin-left: 6%;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 3%;
+}
+/*  */
+/*  */
+.section-2-random-kleding {
+    display: flex;
+    gap: 5rem 2.5rem;
+    margin-bottom: 6rem;
+    position: relative;
+}
+/*  */
+.random-kleding-ul {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-left: 6.1%;
+    margin-bottom: 2%;
+    list-style: none;
+}
+/*  */
+.article-random-kledinge-schoenen-accesoires:hover {
+    /* border: 1px solid; */
+    transform: scale(1.01);
+}
+/*  */
+.article-random-kledinge-schoenen-accesoires .img-product-random {
+    width: 25rem;
+    height: auto;
+    flex-wrap: wrap;
+}
+/*  */
+.random-product {
+    font-size: 1.7rem;
+}
+/*  */
+.button-random-product {
+    position: relative;
+    top: -40.9rem;
+    left: 22rem;
+}
+
+/*  */
+.button-random-product2 {
+    top: 20rem;
+    margin-left: 19.4rem;
+}
+/*  */
+.bestel-wagen-product {
+    width: 2rem;
+    height: auto;
+}
+/*  */
+
+.informatie-inleiding-section-3 {
+    display: flex;
+    height: 40rem;
+    background: rgb(69, 69, 166);
+    color: white;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.informatie-inleiding-section4 {
+    display: block;
+    font-family: sans-serif;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+.informatie-inleiding-h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.informatie-inleiding-section5 {
+    height: auto; 
+    display: block;
+}
+
+.video-mp4 {
+    width: 100%;
+    height: 92.5%; 
+    margin-left: 8rem;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+/* article-footer */
+.article-footer{
+    background: black;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    max-height: 50rem;
+}
+
+
+
+
