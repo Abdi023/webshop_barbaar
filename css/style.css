@@ -179,6 +179,12 @@ body {
     width: 25rem;
     height: auto;
     flex-wrap: wrap;
+    display: flex;
+}
+/*  */
+.img-product-random {
+    width: 100%;
+    height: auto;
 }
 /*  */
 .random-product {
@@ -187,8 +193,8 @@ body {
 /*  */
 .button-random-product {
     position: relative;
-    top: -40.9rem;
-    left: 22rem;
+    top: -39.9rem;
+    left: 21.5rem;
 }
 
 /*  */
